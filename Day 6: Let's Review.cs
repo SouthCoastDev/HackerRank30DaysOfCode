@@ -5,10 +5,9 @@ using System.IO;
 class Solution {
     static void Main(String[] args) {
         
-         int n = Convert.ToInt32(Console.ReadLine().Trim());
+        int n = Convert.ToInt32(Console.ReadLine().Trim());
 
         var words = new List<string>();
-        var outputWords = new List<string>();
            
         while (n > 0)
         {
